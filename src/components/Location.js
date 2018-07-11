@@ -19,17 +19,19 @@ const styles = {
   }
 };
 
-class Location extends Component {
+export class Location extends Component {
   constructor(props) {
     super(props);
     this.state = { address: '' };
   }
 
   handleChange = address => {
+    console.log(address);
     this.setState({ address });
   };
 
   handleSelect = address => {
+    console.log('address', address);
     this.setState({ address }, () => {
       geocodeByAddress(address)
         .then(results => getLatLng(results[0]))
@@ -49,7 +51,7 @@ class Location extends Component {
           <div>
             <input
               {...getInputProps({
-                placeholder: 'Search Places ...',
+                placeholder: 'Choose Location ...',
                 className: 'location-search-input',
                 autoFocus: true
               })}
