@@ -10,35 +10,31 @@ This app has been developed using :
 * [React Places autocomplete](https://github.com/hibiken/react-places-autocomplete) to get the location data such as lat and longitude.
 * JEST and Enzyme for snapshot and unit test cases
 
-###Getting Started###
+#Getting Started
 
 Checkout this repo, install dependencies, then start webpack server with the following:
 
 ```
-	> git clone https://github.com/HimanJusta/WeatherAPP.git
-	> cd WeatherAPP
-	> npm install
-	> npm start
-	> App should open in the default browser or go to browser and add following address localhost:3000
+	git clone https://github.com/HimanJusta/WeatherAPP.git
+	cd WeatherAPP
+	npm install
+	npm start
+	App should open in the default browser or go to browser and add following address localhost:3000
 ```
 
-###Running test cases###
-
-Checkout this repo, install dependencies, then start webpack server with the following:
+#Running test cases
 
 ```
-	> npm test
+	npm test
 ```
 
-###Generating coverage report###
-
-Checkout this repo, install dependencies, then start webpack server with the following:
+#Generating coverage report
 
 ```
-	> npm test -- --coverage
+	npm test -- --coverage
 ```
 
-###TODO
+#TODO
 
 1. Improve UI to show a Map overlay as an option
 2. Can include charts using D3 to show the trend in the weather for the coming 5 days.
