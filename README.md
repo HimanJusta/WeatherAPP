@@ -38,3 +38,5 @@ Checkout this repo, install dependencies, then start webpack server with the fol
 
 1. Improve UI to show a Map overlay as an option
 2. Can include charts using D3 to show the trend in the weather for the coming 5 days.
+3. Make it a progressive Web app.
+4. Add Flexbox and CSS-Grid and own CSS to make the code more customaziable.
